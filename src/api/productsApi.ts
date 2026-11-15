@@ -1,6 +1,6 @@
 import type { Category, Product, ProductsResponse } from '../types'
 
-const BASE_URL = 'https://dummyjson.com/products/category-list'
+const BASE_URL = 'https://dummyjson.com/products'
 
 export async function fetchProducts(
   page: number,
